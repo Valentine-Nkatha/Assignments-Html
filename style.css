@@ -1,0 +1,188 @@
+#topnav a{
+    text-decoration: none;
+    
+    
+    color: black;
+}
+#buttons{
+    background-color:steelblue;
+    color: white;
+}
+#Expert{
+    display: flex;
+    justify-content: space-around;
+}
+#Subscribe{
+    align-content: center;
+    background-color: aquamarine;
+    height: 350px;
+}
+#City{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#image{
+    object-fit: cover;
+}
+#our{
+    text-align: center;
+}
+#The{
+    display: flex;
+    justify-content: space-around;
+}
+image{
+    background-color: aquamarine;
+}
+#first{
+    display: flex;
+    justify-content: space-around;
+}
+#second{
+    display: flex;
+    justify-content: space-around;
+}
+#First{
+    display: grid;
+    
+}
+#Your{
+    display: flex;
+    justify-content: space-around;
+    background-color: aquamarine;
+}
+#Which{
+    display: flex;
+    justify-content: space-around;
+}
+#Dr{
+    height:20px ;
+    color: white;
+}
+#what{
+    display: flex;
+    justify-content: space-between;
+}
+#Next{
+    text-align: right;
+}
+#Interested{
+    display: flex;
+    justify-content: space-between;
+}
+#see{
+    text-align: right;
+}
+
+
+@media screen and(min-width:370)and(max-width:700){
+    /* #Your{
+        width: 0.25px;
+
+    }
+    #Expert{
+        width: 0.05px;
+    
+    }
+    #image{
+      
+        display: flex;
+        flex-wrap: wrap;
+    } */
+    #topnav a{
+        text-decoration: none;
+        color: black;
+        flex-wrap: wrap;
+    }
+    #buttons{
+        background-color:steelblue;
+        color: white;
+        flex-wrap: wrap;
+    }
+    #Expert{
+        display: grid;
+        width: 0.005px;
+    }
+    #Subscribe{
+        align-content: center;
+        background-color: aquamarine;
+        height: 350px;
+        flex-wrap: wrap;
+    }
+    #City{
+        display: flex;
+        
+        flex-wrap: wrap;
+        
+    }
+    #image{
+        object-fit: cover;
+        flex-wrap: wrap;
+    }
+    #our{
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    #The{
+        display: flex;
+        
+        flex-wrap: wrap;
+    }
+    image{
+        background-color: aquamarine;
+        flex-wrap: wrap;
+    }
+    #first{
+        display: flex;
+        
+        flex-wrap: wrap;
+    }
+    #second{
+        display: flex;
+        
+        flex-wrap: wrap;
+    }
+    #First{
+        display: grid;
+        flex-wrap: wrap;
+        
+    }
+    #Your{
+        display: flex;
+        
+        background-color: aquamarine;
+        flex-wrap: wrap;
+        width: 0.25px;
+    }
+    #Which{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    #Dr{
+        height:20px ;
+        color: white;
+    }
+    #what{
+        display: flex;
+    
+        flex-wrap: wrap;
+    }
+    #Next{
+        text-align: right;
+        flex-wrap: wrap;
+    }
+    #Interested{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    #see{
+        text-align: right;
+    }
+    #your{
+        width: 0.05px;
+    }
+}
+    
